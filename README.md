@@ -23,8 +23,8 @@ TonyaLab is an independent, healthcare-themed IAM practice environment built usi
 ## Hands-On Projects
 1. [Healthcare Employee Onboarding](Projects/Healthcare-Employee-Onboarding/README.md) — Created Active Directory accounts, assigned security groups, and configured role-based access.
 2. [Healthcare Employee Offboarding](Projects/Healthcare-Employee-Offboarding/README.md) — Disabled employee accounts, revoked access, and investigated cached Windows sign-ins.
-3. **Role-Based Access Control:** Managing departmental access through security groups and shared folder permissions.
-4. **PowerShell Security Auditing:** Developing and testing scripts for group membership, disabled account, inactive account, and password policy reviews.
+3. [Role-Based Access Control (RBAC)](Projects/Role-Based-Access-Control/README.md) — Configured departmental security groups and managed folder permissions.
+4. [PowerShell Security Auditing](Projects/PowerShell-Security-Auditing/README.md) — Audited Active Directory accounts, group memberships, and security policies.
 
 Detailed project documentation, screenshots, and sanitized scripts will be added as the portfolio develops.
 
