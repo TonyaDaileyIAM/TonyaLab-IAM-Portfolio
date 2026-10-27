@@ -21,8 +21,8 @@ My focus is on identity lifecycle management, access provisioning, role-based ac
 TonyaLab is an independent, healthcare-themed IAM practice environment built using Oracle VirtualBox, Windows Server 2022, and Windows 11 Enterprise. The lab simulates identity administration tasks across clinical and non-clinical departments.
 
 ## Hands-On Projects
-1. **Employee Onboarding:** Creating domain user accounts, organizing users into OUs, and assigning appropriate security group memberships.
-2. **Employee Offboarding:** Disabling accounts, removing group memberships, and testing access restrictions.
+1. [Healthcare Employee Onboarding](Projects/Healthcare-Employee-Onboarding/README.md) — Created Active Directory accounts, assigned security groups, and configured role-based access.
+2. [Healthcare Employee Offboarding](Projects/Healthcare-Employee-Offboarding/README.md) — Disabled employee accounts, revoked access, and investigated cached Windows sign-ins.
 3. **Role-Based Access Control:** Managing departmental access through security groups and shared folder permissions.
 4. **PowerShell Security Auditing:** Developing and testing scripts for group membership, disabled account, inactive account, and password policy reviews.
 
