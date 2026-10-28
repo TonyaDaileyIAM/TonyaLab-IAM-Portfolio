@@ -50,7 +50,7 @@ Script: `Password-Policy-Audit.ps1`
 The following screenshots document PowerShell security auditing performed in the TonyaLab Active Directory environment.
 
 ### Disabled Accounts Audit
-![Disabled Accounts Audit](evidence/Disabled_Accounts_Audit_Results.png)
+![Disabled Accounts Audit](evidence/Disabled_Accounts_Audit_Result.png)
 
 ### Hospital Group Access Audit
 ![Hospital Group Audit](evidence/Hospital_Group_Audit_Results.png)
