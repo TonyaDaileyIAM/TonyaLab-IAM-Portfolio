@@ -41,8 +41,26 @@ Disabling an Active Directory account is a critical offboarding step, but cached
 
 This exercise reinforced the importance of validating offboarding outcomes and distinguishing domain account status from endpoint sign-in behavior.
 
-## Evidence
-Sanitized screenshots of the disabled account, security group changes, Windows event details, and sign-in testing will be added.
+## Lab Evidence — Access Revocation
+
+### 1. PowerShell Access Revocation
+![PowerShell group membership revocation](evidence/Ashley_Powershell_Revocation.jpg)
+
+Documented a PowerShell command for removing a fictional healthcare employee from an Active Directory security group. This illustrates a method for revoking departmental access.
+
+### 2. Scheduled Access Expiration
+![Scheduled access expiration configuration](evidence/Ashley_Scheduled_Access_Expiration.jpg)
+
+Documented a scheduled access-expiration exercise designed to limit an employee's access after a defined period.
+
+### 3. Scheduled Task Test
+![IAM scheduled task test](evidence/IAM_Scheduler_Test_Success.jpg)
+
+Captured a scheduled-task test associated with the automated access-management exercise.
+
+## Evidence Scope
+
+These screenshots demonstrate selected access-revocation and automation exercises. The separate full employee offboarding scenario, including account disablement, group removal verification, and Windows sign-in investigation, requires its own supporting evidence.
 
 ## Project Takeaway
 This project provided hands-on practice with employee offboarding, access revocation, and troubleshooting authentication behavior in an Active Directory environment.
