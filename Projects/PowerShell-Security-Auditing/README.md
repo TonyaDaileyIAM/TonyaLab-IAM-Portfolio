@@ -47,8 +47,19 @@ Script: `Password-Policy-Audit.ps1`
 - PowerShell automation
 - Least-privilege access management
 
-## Evidence and Scripts
-Sanitized PowerShell scripts, sample outputs, and screenshots will be added after review.
+The following screenshots document PowerShell security auditing performed in the TonyaLab Active Directory environment.
+
+### Disabled Accounts Audit
+![Disabled Accounts Audit](evidence/Disabled_Accounts_Audit_Results.png)
+
+### Hospital Group Access Audit
+![Hospital Group Audit](evidence/Hospital_Group_Audit_Results.png)
+
+### Inactive Accounts Audit
+![Inactive Accounts Audit](evidence/Inactive_Accounts_Audit_Results.png)
+
+### Password Policy Audit
+![Password Policy Audit](evidence/Password_Policy_Audit_Results.png)
 
 ## Project Takeaway
 These exercises provided hands-on practice using PowerShell to collect and review Active Directory security information. They reinforced the value of repeatable auditing procedures for IAM administration.
