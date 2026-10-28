@@ -31,10 +31,31 @@ This project documents an employee onboarding workflow in TonyaLab, an independe
 - Least-privilege access
 - Security group administration
 
-## Evidence
-Sanitized screenshots showing account creation, OU placement, security group membership, and permission configuration will be added to this project.
+## Lab Evidence — Screenshots
+
+### 1. Employee Account Creation
+![Ashley Carter account created in Active Directory](evidence/Ashley_Acccount_Created.jpg)
+
+Created a fictional healthcare employee account in the Nursing organizational unit.
+
+### 2. Employee Organizational Unit Placement
+![Sarah Johnson in Nursing OU](evidence/SarahJ_NursingOU.jpg)
+
+Organized the employee account within the appropriate department in Active Directory.
+
+### 3. Employee Attributes
+![Sarah Johnson employee attributes](evidence/SarahJ_Attributes.jpg)
+
+Configured job title, department, and company information for a fictional healthcare employee.
+
+### 4. Security Group Membership
+![Sarah Johnson security group membership](evidence/SarahGroup_Membership.jpg)
+
+Assigned the employee to the GG-ER-Nurses security group to support role-based access management.
 
 ## Project Takeaway
 This exercise provided hands-on practice with foundational IAM administration tasks in a simulated healthcare organization. It reinforced how user accounts, organizational structure, and security groups support consistent access management.
 
 *This is an independent educational home-lab project. All employee identities and organizational scenarios are fictional.*
+
+
