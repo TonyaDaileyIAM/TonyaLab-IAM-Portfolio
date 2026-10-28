@@ -34,8 +34,41 @@ This project demonstrates role-based access management in TonyaLab, an independe
 - File share permissions
 - Separation of departmental responsibilities
 
-## Evidence
-Sanitized screenshots of the OU structure, security groups, user memberships, and departmental folder permissions will be added.
+## Lab Evidence — Screenshots
+
+### 1. Active Directory Security Group Membership
+![Ashley Carter security group membership](evidence/Ashley_Group_membership.jpg)
+
+Reviewed security group memberships for a fictional healthcare employee to demonstrate role-based access assignments.
+
+### 2. Emergency Room Share Permissions
+![Emergency Room shared folder permissions](evidence/ER_Share_Permissions.jpg)
+
+Configured shared-folder permissions for Emergency Room resources using Active Directory security groups.
+
+### 3. NTFS Folder Permissions
+![NTFS security permissions](evidence/NTFS_Permissions.jpg)
+
+Reviewed Windows NTFS permissions to demonstrate how access to departmental folders is controlled.
+
+### 4. Radiology NTFS Permissions
+![Radiology NTFS permissions](evidence/Radiology_NTFS_Permissions.jpg)
+
+Configured departmental file-system permissions to support role-based access and least-privilege principles.
+
+### 5. Radiology Modify Access
+![Radiology share modify permissions](evidence/Radiology_Share_Modify.jpg)
+
+Configured Change and Read share permissions for a Radiology security group requiring modification access.
+
+### 6. Radiology Read-Only Access
+![Radiology share read-only permissions](evidence/Radiology_Share_ReadOnly.jpg)
+
+Configured Read-only share permissions for a Radiology security group requiring limited access.
+
+## Security Takeaway
+
+This project demonstrates how Active Directory security groups, NTFS permissions, and shared-folder permissions can be combined to manage departmental access in a simulated healthcare environment.
 
 ## Project Takeaway
 This exercise demonstrated how security groups can simplify access management and help enforce consistent permissions across a simulated healthcare organization.
